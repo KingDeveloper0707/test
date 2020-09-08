@@ -1,0 +1,16 @@
+.home_title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  color: white;
+  font-size: 8vw;
+}
+
+.gtco-header{
+  overflow: hidden;
+}
+
+.gtco-container{
+  overflow: hidden;
+}

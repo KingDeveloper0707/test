@@ -1,0 +1,109 @@
+@import "font-awesome/css/fontawesome-all.min.css";
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset all initial margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato';
+    
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 80%;
+    
+    font-size: 1.2em;
+
+    color: white;
+
+    padding: 5px 30px 40px 30px;
+
+    background-color: rgba(0,0,0,0.4);
+
+    border-radius: 0 0 15px 15px;
+}
+#content td {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+#content input[type="text"], #content input[type="email"], #content input[type="password"] {
+    font-size: 1.1em;
+    margin: 8px 0;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    width: 500px;
+}
+#content input[type="submit"], #content input[type="reset"] {
+    background-color: #24B476;
+    color: white;
+    padding: 5px 8px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 2px;
+}
+#content input[type="checkbox"] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+    margin-left: 5px;
+}
+#content form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#list-table {
+    width: 80%;
+    margin: 0 auto;
+}
+    #list-table th, #list-table td {
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    #list-table th {
+        font-weight: bolder;
+    }
+    #list-table td {
+        font-weight: bold;
+    }
+    #list-table a {
+        color: white;
+        font-size: 0.9em;
+    }
+    #list-table, #list-table th, #list-table td, #list-table tr {
+        border: 1px solid white;
+        color: white;
+        border-collapse: collapse;
+    
+        text-align: center;
+    }
+
+.form-table {
+    width: 90%;
+    margin: 0 auto;
+}
+    .form-table th, .form-table td {
+        padding: 5px;
+    }
